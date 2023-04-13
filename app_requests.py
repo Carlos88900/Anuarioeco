@@ -14,8 +14,8 @@ import json
 from requests import Session
 from bs4 import BeautifulSoup as s
 import openai
-api_id = 9910861
-api_hash = "86e927460a8998ba6d84e9c13acfda95"
+api_id = 10181262
+api_hash = "f52b5a057b73b9974eaa7403e04907f0"
 bot_token = "5999344767:AAErW_Ejrlhv4X-GocxLdXxdRX__JNenVyc"
 bot = Client("bot",api_id=api_id,api_hash=api_hash,bot_token=bot_token)
 openai.api_key = bot_token
