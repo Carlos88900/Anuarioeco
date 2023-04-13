@@ -16,7 +16,7 @@ from bs4 import BeautifulSoup as s
 import openai
 api_id = 10181262
 api_hash = "f52b5a057b73b9974eaa7403e04907f0"
-bot_token = "5999344767:AAErW_Ejrlhv4X-GocxLdXxdRX__JNenVyc"
+bot_token = "5947045568:AAE0mfkt85dPRAYIKGBEFdHd4qG4U3Y4bAA"
 bot = Client("bot",api_id=api_id,api_hash=api_hash,bot_token=bot_token)
 openai.api_key = bot_token
 
